@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="Cuentas.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="col">
+            <div class="row-sm-12 row-lg-6">
+                <p class="parrafo"> Hola Mundo!!</p>
+            </div>
+            <div class="row -sm-12 row-lg-6">
+                <p class="parrafo"> Por favor, ingrese dos números</p>
+            </div>
+            <div style="text-align: center" class="row-sm-12 row-lg-6">
+                <img src="Fotos/Math.jpg" width="300" />
+            </div>
+            <div class="row -sm-12 row-lg-6" style="margin-top: 15px">
+                <input id="numero1" type="number" class="form-control input" />
+            </div>
+            <div class="row -sm-12 row-lg-6" style="margin-top: 15px">
+                <input id="numero2" type="number" class="form-control input" />
+            </div>
+        </div>
+        <div class="row" style="margin-top: 15px">
+            <div class="col">
+                <button id="suma" onclick="Suma()" class="form-control btn-outline-warning boton">CLICK AQUI PARA SUMA </button>
+            </div>
+            <div class="col">
+                <button id="resta" onclick ="Resta()" class="form-control btn-outline-warning boton"> CLICK AQUI PARA RESTA</button>
+            </div>
+            <div class="col">
+                <button id="division" onclick="Division()" class="form-control btn-outline-warning boton"> CLICK AQUI PARA DIVISION</button>
+            </div>
+            <div class="col">
+                <button id="multiplicacion" onclick="Multiplicacion()" class="form-control btn-outline-warning boton"> CLIKC AQUI PARA MULTIPLICAR</button>
+            </div>
+            <div class="col">
+                <button id="raiz" onclick="Raiz()" class="form-control btn-outline-warning boton"> CLIKC AQUI PARA RAIZ (1er numero)</button>
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-top: 20px">
+            <div class="col">
+                <input id="mostrar" type="text" class="form-control rta" readonly />
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
